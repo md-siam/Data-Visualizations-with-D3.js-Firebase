@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Visualization using D3</title>
+  </head>
+
+  <body>
+    <div class="canvas"></div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "---------------",
+        authDomain: "-----------------",
+        databaseURL: "----------------",
+        projectId: "---------------",
+        storageBucket: "-----------------",
+        messagingSenderId: "----------------",
+        appId: "-----------------",
+        measurementId: "----------------",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      const db = firebase.firestore();
+    </script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
