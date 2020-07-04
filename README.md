@@ -4,6 +4,6 @@ Introduction to D3.js using firebase
 ![Screenshot of Select Theme window](imgs/screenshot.png)
 
 
-## Course
+## Source
 The full course is available in [Udemy](https://www.udemy.com/course/build-data-uis-with-d3-firebase/)
 
